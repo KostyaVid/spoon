@@ -15,7 +15,7 @@ const activeScroll = function(){
 
 document.querySelector('.burger').addEventListener('click', ()=>{
    document.querySelector('.header__menu').style.transition = 'transform 0.2s ease-in';
-   document.querySelector('.burger__content').classList.toggle('burger_close');
+   document.querySelector('.burger').classList.toggle('_active');
    document.querySelector('.header__menu').classList.toggle('header__menu_active');
    document.querySelector('body').classList.toggle('body_active');
 
